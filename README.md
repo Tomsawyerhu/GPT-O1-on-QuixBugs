@@ -1,4 +1,5 @@
 # GPT-O1-on-QuixBugs
+This is the repository for **Can GPT-O1 Kill All Bugs? An Evaluation of GPT-Family LLMs on QuixBugs**.
 
 LLMs have long demonstrated remarkable effectiveness in automatic program repair (APR), with OpenAI's ChatGPT being one of the most widely used models in this domain.
 Through continuous iterations and upgrades of  GPT-family models, their performance in fixing bugs has already reached state-of-the-art levels.
@@ -10,7 +11,6 @@ The results demonstrate that O1's repair capability exceeds that of prior GPT-fa
 Our work can serve as a foundation for further in-depth exploration of the applications of GPT-family models in APR.
 
 ## Main Results
-This is the repository for **Can GPT-O1 Kill All Bugs? An Evaluation of GPT-Family LLMs on QuixBugs**
 
 | **Benchmark problem**               | **O1-preview** | **O1-mini** | **GPT-4o** | **ChatGPT**         | **Codex** | **CIRCLE** | **Standard APR** |
 |-------------------------------------|----------------|--------------|------------|----------------------|-----------|------------|------------------|
