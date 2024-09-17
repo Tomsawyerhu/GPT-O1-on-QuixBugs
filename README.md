@@ -1,5 +1,5 @@
 # GPT-O1-on-QuixBugs
-This is the repository for **Can GPT-O1 Kill All Bugs? An Evaluation of GPT-Family LLMs on QuixBugs**.
+This is the repository for [**Can GPT-O1 Kill All Bugs? An Evaluation of GPT-Family LLMs on QuixBugs**](https://arxiv.org/abs/2409.10033).
 
 LLMs have long demonstrated remarkable effectiveness in automatic program repair (APR), with OpenAI's ChatGPT being one of the most widely used models in this domain.
 Through continuous iterations and upgrades of  GPT-family models, their performance in fixing bugs has already reached state-of-the-art levels.
@@ -163,5 +163,18 @@ print(b)
 | wrap                               | 21s            | < 5s        | ~          |
 | **Average**                        | 19.82s         | 7.02s       | ~          |
 
-## Others
+## Mention
 All results can be found in gpt_quixbugs.txt
+
+## Citation
+```
+@misc{hu2024gpto1killbugs,
+      title={Can GPT-O1 Kill All Bugs? An Evaluation of GPT-Family LLMs on QuixBugs}, 
+      author={Haichuan Hu and Ye Shang and Guolin Xu and Congqing He and Quanjun Zhang},
+      year={2024},
+      eprint={2409.10033},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2409.10033}, 
+}
+```
